@@ -1,0 +1,372 @@
+<HEAD><TITLE>NORDICMAFIA - Slaget om Norden</TITLE>
+<META content="Et tekstbasert online mafia spill hvor du kjemper om å bli den mest mektige gudfaren. Start opp din egen gjeng, eget firma eller spill bort pengene i et casino i Oslo. Driv med streetracing og tjen penger, stjel biler, lag film, gjør en kriminell handling, driv med organisert krim og mye mer!" name=description>
+<META content="nordicmafia, norskmafia, gangster, rpg, online, tekstbasert, streetracing, krim, kriminalitet, stjel, mafia, mafioso, textbased, norsk, gangsta, spill, game, organisert krim, organized, oc, crime, biltyveri" name=keywords>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1"><LINK href="favicon.ico" rel="SHORTCUT ICON">
+<META http-equiv=Content-Language content=no-bok><LINK href="stil.css" type=text/css rel=stylesheet>
+<SCRIPT src="http://www.google-analytics.com/urchin.js" type=text/javascript>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+_uacct = "UA-2372646-1";
+urchinTracker();
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+<!--
+function numbersonly(myfield, e, dec) {
+	var key;
+	var keychar;
+	if (window.event)
+		key = window.event.keyCode;
+	else if (e)
+		key = e.which;
+	else return true;
+	keychar = String.fromCharCode(key);
+	// control keys
+	if ((key==null) || (key==0) || (key==8) || (key==9) || (key==13) || (key==27) )
+		return true;
+	// numbers
+	else if ((("0123456789").indexOf(keychar) > -1))
+		return true;
+	// decimal point jump
+	else if (dec && (keychar == ".")) {
+		myfield.form.elements[dec].focus();
+		return false;
+	} else
+		return false;
+}
+//-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript>
+<!-- Start
+var submitcount=0;
+
+function checkFields() {
+   {
+   if (submitcount == 0)
+      {
+      submitcount++;
+      return true;
+      }
+   else 
+      {
+      return false;
+      }
+   }
+}
+//  Slutt -->
+</SCRIPT>
+
+<SCRIPT language=JavaScript>
+<!-- Start
+function popUp(URL) {
+day = new Date();
+id = day.getTime();
+eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=500');");
+}
+// Slutt -->
+</SCRIPT>
+</HEAD>
+<BODY>
+<DIV id=overDiv style="Z-INDEX: 1000; VISIBILITY: hidden; POSITION: absolute"></DIV>
+<TABLE id=table1 cellSpacing=0 cellPadding=0 width=750 align=center border=0>
+<TBODY>
+<TR>
+<TD style="PADDING-BOTTOM: 10px" vAlign=top align=left width=75 colSpan=3>
+<TABLE id=table2 cellSpacing=0 cellPadding=0 width=750 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=left><A href="index.php?side=hoved"><IMG src="designbilder/logo.jpg" border=0> </A></TD>
+<TD vAlign=center align=left><IMG title="" src="designbilder/hoyre_logo.jpg" border=0> <BR><BR><FONT color=#4682b4><B>Hjelp med å spille? <A style="COLOR: #4682b4" href="index.php?side=faq">Les FAQ</A> - <A style="COLOR: #4682b4" href="index.php?side=support">In-game Support!</A></B></FONT> </TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD vAlign=top align=left width=145>
+<TABLE id=table3 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR style="BACKGROUND: url(designbilder/menybar.gif)" height=16 width="145">
+<TD align=middle><B>Hoved</B> </TD></TR>
+<TR>
+<TD class=menuborder style="PADDING-BOTTOM: 3px; PADDING-TOP: 4px">
+<TABLE class=menuarea cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=poeng"><B>Poenghandel</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=poverfor"><B>Overfør Poeng</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=bank"><B>Banken</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=politi"><B>Politistasjon</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=politinytt"><B>Politinytt</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=fest"><B>Fester</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=eiendom"><B>Eiendom</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=omrader"><B>Territorium</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=lesavis"><B>Les Avis</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=flyplass"><B>Flyplass</B></A><BR></TD></TR>
+<TR>
+<TD><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=krim"><B>Kriminalitet</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=utpressing"><B>Utpressing</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=drep"><B>Drep</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=sykehus"><B>Sykehus</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=hitlist"><B>Hitlist</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=gta"><B>Biltyveri/Garasje</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=oc"><B>Organisert Krim</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=skytetrening"><B>Skytetrening</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=cdgny"><B>Club dè Gangster <FONT color=red>(v.2)</FONT></B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=oppdrag"><B>Oppdrag</B></A><BR></TD></TR>
+<TR>
+<TD><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=fightclub"><B>Fight Club</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=borsen"><B>Børsen</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=livvakt"><B>Livvaktutleie</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=plantasje"><B>Hasjplantasje</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=filmprod"><B>Filmproduksjon</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=racing&amp;valg=mod"><B>Modifiser Bil</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=racing&amp;valg=race"><B>Streetracing</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=fengsel"><B>Fengsel</B></A><BR></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD><IMG height=7 alt="" src="designbilder/left_bottom.gif" width=145 border=0><BR><BR></TD></TR>
+<TR style="BACKGROUND: url(designbilder/menybar.gif)" height=16 width="145">
+<TD align=middle><B>Annet</B> </TD></TR>
+<TR>
+<TD class=menuborder style="PADDING-BOTTOM: 3px; PADDING-TOP: 4px">
+<TABLE class=menuarea cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=kuler"><B>Kjøp Kuler</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=bruktbilo"><B>Kjøp Bruktbil</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=bruktbilo&amp;akt=selg"><B>Selg Bruktbil</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=flyhandel"><B>Kjøp Fly</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=vapenhandel"><B>Kjøp Våpen</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=protecthandel"><B>Kjøp Beskyttelse</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=underground"><B>The Underground</B></A><BR></TD></TR>
+<TR>
+<TD><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=forsok"><B>Mordforsøk</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=rankbar"><B>Rankbar</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=gjengcp"><B>Gjengsenter</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=firmacp"><B>Firmapanel</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=openbud"><B>Statsauksjon</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=avisfirma"><B>Avisfirma</B></A><BR></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD style="PADDING-BOTTOM: 10px"><IMG height=7 alt="" src="designbilder/left_bottom.gif" width=145 border=0></TD></TR>
+<TR style="BACKGROUND: url(designbilder/menybar.gif)" height=16 width="145">
+<TD align=middle><B>Gambling</B> </TD></TR>
+<TR>
+<TD class=menuborder style="PADDING-BOTTOM: 3px; PADDING-TOP: 4px">
+<TABLE class=menuarea cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=poker"><B>Poker</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=blackjack"><B>Blackjack</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=keno"><B>Keno</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=lotto"><B>Lotto</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=hestelop"><B>Veddeløpsbanen</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=russisk"><B>Russisk Rulett</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=nummer"><B>Nummerspillet</B></A><BR></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD style="PADDING-BOTTOM: 10px"><IMG height=7 alt="" src="designbilder/left_bottom.gif" width=145 border=0></TD></TR></TBODY></TABLE></TD>
+<TD style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px" vAlign=top align=left width=550>
+<TABLE cellSpacing=0 cellPadding=0 width=550 border=0>
+<TBODY>
+<TR>
+<TD style="BORDER-RIGHT: #6f6f6f 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #6f6f6f 1px solid; BACKGROUND-COLOR: #111111" noWrap align=right width=550><SPAN class=nicktext>Tirsdag 06. November 2007 21:57:16</SPAN><BR><BR><BR></TD></TR>
+<TR>
+<TD class=content width="100%" colSpan=4>
+<SCRIPT language=JavaScript>
+<!-- Start
+function popUp(URL) {
+day = new Date();
+id = day.getTime();
+eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=500');");
+}
+// Slutt -->
+</SCRIPT>
+<EMBED src=http://dump.no/files/a3007b2ab756/Alejandro_Fuentes_-_Hell_If_I.mp3 width=2 height=0 type=audio/mpeg loop="true" autostart="true"> </EMBED>
+<TABLE cellSpacing=1 cellPadding=2 width="100%" bgColor=#cccccc border=0>
+<TBODY>
+<TR>
+<TD class=header align=left><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1><B>· Personlig Bilde</B></FONT></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=2 width="100%" border=0>
+<TBODY>
+<TR vAlign=top align=middle>
+<DIV align=center><A href="javascript:popUp('http://ole-andreas.net/Manchester%20United.jpg')"><IMG height=250 alt="" src="http://ole-andreas.net/Manchester%20United.jpg" width=250></A></DIV></TR></TBODY></TABLE><BR><BR>
+<TABLE cellSpacing=1 cellPadding=2 width="100%" bgColor=#cccccc border=0>
+<TBODY>
+<TR>
+<TD class=header align=left><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1><B>· Generell info</B></FONT></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=2 width="80%" border=0>
+<TBODY>
+<TR vAlign=top align=left>
+<TD width=83><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1><B>Brukernavn:</B></FONT></TD>
+<TD width=360><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1><A href="index.php?side=pm_ny&amp;bruker=Ghost of Dagro">Ghost of Dagro</A> </FONT></TD></TR>
+<TR vAlign=top align=left>
+<TD width=83><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1><B>Gjeng:</B></FONT></TD>
+<TD width=360><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1>Ingen</FONT></TD></TR>
+<TR vAlign=top align=left>
+<TD width=83><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1><B>Status:</B></FONT></TD>
+<TD width=360><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1>Levende (<B><FONT color=green>Pålogget!</FONT></B>)</FONT></TD></TR>
+<TR vAlign=top align=left>
+<TD width=83><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1><B>Rank:</B></FONT></TD>
+<TD width=360><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1>Bråkmaker</FONT></TD></TR>
+<TR vAlign=top align=left>
+<TD width=83><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1><B>Pengestatus:</B></FONT></TD>
+<TD width=360><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1>Respektabel</FONT></TD></TR>
+<TR vAlign=top align=left>
+<TD width=83><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1><B>Antall drap:</B></FONT></TD>
+<TD width=360><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1>0</FONT></TD></TR>
+<TR vAlign=top align=left>
+<TD width=200><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1><B>Club de gangster:</B></FONT></TD>
+<TD width=360><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1>Nei</FONT></TD></TR>
+<TR vAlign=top align=left>
+<TD width=83><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1><B>Meld. sendt:</B></FONT></TD>
+<TD width=360><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1>103<BR><BR></FONT></TD></TR></TR>
+<TR vAlign=top align=left>
+<TD width=83><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1><B>Navn:</B></FONT></TD>
+<TD width=360><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1>Rate my profil! Send en PM med tallet 0-10! Takk for at du ratet profilen min</FONT></TD></TR></TR>
+<TR vAlign=top align=left>
+<TD width=83><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1><B>Ble medlem:</B></FONT></TD>
+<TD width=360><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1>28. October 2007 00:11<BR><BR></FONT></TD></TR>
+<TR vAlign=top align=left>
+<TD width=83><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1><B>Siste besøk:</B></FONT></TD>
+<TD width=360><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1>06. November 2007 21:54</FONT></TD></TR></TBODY></TABLE><BR><BR>
+<TABLE cellSpacing=1 cellPadding=2 width="100%" bgColor=#cccccc border=0>
+<TBODY>
+<TR>
+<TD class=header align=left><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1><B>· Fri Tekst</B></FONT></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=2 width="80%" border=0>
+<TBODY>
+<TR vAlign=top align=left>
+<TD width=83><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1></FONT></TD>
+<TD align=left width=360><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1>
+<DIV style="WIDTH: 470px"><SPAN style="COLOR: #111111">**********************</SPAN><SPAN style="COLOR: #000066">
+<H2>EN SOM BØR NEVNES:</H2></SPAN><BR><SPAN style="COLOR: #111111">***************************</SPAN><SPAN style="COLOR: #000066">
+<H3>MaggaZ</H3></SPAN><BR><SPAN style="COLOR: #111111">aaaaaaaaa*''aaaaaaaa</SPAN><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://i22.tinypic.com/xvgjn.jpg"><BR><SPAN style="COLOR: #111111">****</SPAN><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://i16.tinypic.com/4u3ib0w.gif"><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://www.reinelinjer.no/Bilder/w-brann-300.jpg"><BR><SPAN style="COLOR: #111111">**********</SPAN><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://i17.tinypic.com/5y19amb.jpg"><BR><SPAN style="COLOR: #111111">**********</SPAN><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://i7.tinypic.com/21mc3r5.jpg"><BR><SPAN style="COLOR: #111111">**********</SPAN><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://i20.tinypic.com/n3w6dj.jpg"><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://cartman.moldeung.com/psychoprofilxxx.jpg"><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://i18.tinypic.com/498d0uo.jpg"><BR><SPAN style="COLOR: #cc6600">Dato: 28. October 2007 || 14:57:17!<BR>Gratulerer! Du har blitt Wannabe! Nr. 3598(tror jeg)<BR>29. October 2007 || 16:20:26<BR>Gratulerer! Du har blitt Bråkmaker! Nr. 2760!(Vet jeg)</SPAN><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://pic.piczo.com/img/i71745813_97553_2.gif"><BR><SPAN style="COLOR: #cc6600">Ekte Kjærlighet<BR><BR>En jente og en gutt kjørte på motorsykkel på veien i 90 km/t<BR>Jenta: Kan du kjøre litt saktere? Jeg er redd.<BR>Gutt: Nei, det er gøy.<BR>Jenta: Nei, det er det ikke. Vær så snill, det er skummelt.<BR>Gutt: Så si du elsker meg.<BR>Jenta: OK, jeg elsker deg. Kjør saktere nå!<BR>Gutt: Gi meg en klem.<BR>Jenta gir ham en klem<BR>Gutt: Kan du ta hjelmen min og sette den på deg selv? Den plager meg.<BR>I avisen neste dag:<BR>En motorsykkel krasjet inn i en bygning fordi bremsene var ødelagt og ikke funket.<BR>To personer satt på, bare den ene overlevde.<BR>Sannheten er at halvveis nedover veien de kjørte, fant gutten ut at bremsene hans var ødelagt, men han ville ikke at jenta skulle vite noe. I stedet fikk han henne til å si hun elsket ham og få henne til å gi ham en klem en siste gang før han ba henne ta hjelmen hans og bruke den så hun overlevde selv om han visste han ville dø.<BR>Hvis du elsker noen så mye, ta og kopier dette og<BR>ha det på din profil!</SPAN><BR><BR><SPAN style="COLOR: #000066">I thought we had something special<BR>Though I might have missed a lot<BR>I thought we had something precious<BR>Even if I messed up<BR><BR>I know I`ve lost my rights to jugde the things you do<BR>I must confess It hurts a little more then it should<BR><BR>But, Hell if I<BR>Hell If I`m gonna cry because you found someone knew<BR>I`ll tell you I`d feel a whole lot better If you took some time to shead a tear<BR>Baby you didn`t have to look so pleased<BR>So good, so satisfied<BR><BR>I must have thought there was a chance,<BR>I must have thought there were some hope,<BR>Thought we still could find some magic,<BR>Somewhere down the road,<BR><BR><BR>I know I`ve lost my rights to jugde the things you do<BR>I must confess It hurts a little more then it should<BR><BR>But, Hell if I<BR>Hell If I`m gonna cry because you found someone knew<BR>I`ll tell you I`d feel a whole lot better If you took some time to shead a tear<BR>Baby you didn`t have to look so pleased<BR>So good, so satisfied<BR><BR>But, Hell if I<BR>Hell If I`m gonna cry because you found someone knew<BR>I`ll tell you I`d feel a whole lot better I you took some time to shead a tear<BR>Baby you didn`t have to look so pleased<BR>So good, so satisfied<BR>x2</SPAN><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://i7.tinypic.com/25rcqxe.jpg"><BR><SPAN style="COLOR: #111111">*******************************</SPAN><SPAN style="COLOR: #ff0000">RANK</SPAN><BR><SPAN style="COLOR: #111111">$$$$$$$$$$$$$$$$$$$$</SPAN><SPAN style="COLOR: #cc6600">.°*"~..°*"~..°*"~~"*°..~"*°..~"*°.</SPAN><BR><BR><SPAN style="COLOR: #111111">********************</SPAN><SPAN style="COLOR: #cc6600">¤Sivilist</SPAN><BR><SPAN style="COLOR: #111111">**********************</SPAN><SPAN style="COLOR: #000000">¤Wannabe</SPAN><BR><SPAN style="COLOR: #111111">************************</SPAN><SPAN style="COLOR: #ff0000">¤Bråkmaker</SPAN><BR><SPAN style="COLOR: #111111">**************************</SPAN><SPAN style="COLOR: #000000">¤Gangster</SPAN><BR><SPAN style="COLOR: #111111">****************************</SPAN><SPAN style="COLOR: #cc6600">¤Hitman</SPAN><BR><SPAN style="COLOR: #111111">***************************'***</SPAN><SPAN style="COLOR: #000000">¤Assassin</SPAN><BR><SPAN style="COLOR: #111111">**************************''******</SPAN><SPAN style="COLOR: #cc6600">¤Kaptein</SPAN><BR><SPAN style="COLOR: #111111">***********************************</SPAN><SPAN style="COLOR: #000000">¤Boss</SPAN><BR><SPAN style="COLOR: #111111">*************************************</SPAN><SPAN style="COLOR: #cc6600">¤Gudfar</SPAN><BR><SPAN style="COLOR: #111111">**************************************</SPAN><SPAN style="COLOR: #000000">¤LegendariskGudfar</SPAN><BR><SPAN style="COLOR: #111111">*****************************************</SPAN><SPAN style="COLOR: #cc6600">¤Don</SPAN><BR><SPAN style="COLOR: #111111">*******************************************</SPAN><SPAN style="COLOR: #000000">¤CapoDon</SPAN><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://pic.piczo.com/img/i71745813_97553_2.gif"><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://www.nordicmafia.net/nordic/pics/fargekoder.png"><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://i3.tinypic.com/246w4mg.jpg"><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://i12.tinypic.com/2di4o40.jpg]"><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://blink.dagbladet.no/community/files/1/13/13blink/dragedrikkevann.jpg"><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://blink.dagbladet.no/community/files/1/13/13blink/dr_mmef.jpg"><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://pic.piczo.com/img/i71745813_97553_2.gif"><BR><SPAN style="COLOR: #111111">******************'</SPAN><SPAN style="COLOR: #cc6600">Så mye av tiden din har du tilbrakt på min profil!</SPAN><BR><BR><SPAN style="COLOR: #111111">***********************************</SPAN><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://i21.tinypic.com/314xch3.gif"><BR><SPAN style="COLOR: #cc6600">Hvær 1000 på profilen vil fra idag(30:10:07) motta en premie på 1,000,000!</SPAN><BR><SPAN style="COLOR: #111111">*****************************</SPAN><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://counter.rapidcounter.com/counter/1192283893/katt151"><BR><SPAN style="COLOR: #111111">************************</SPAN><SPAN style="COLOR: #000066">Teller startet 28. oktober 2007 KL. 00:51!</SPAN><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://pic.piczo.com/img/i71745813_97553_2.gif"><BR><SPAN style="COLOR: #111111">***********</SPAN><SPAN style="COLOR: #ff0000">Tidligere brukere:</SPAN><BR><BR><SPAN style="COLOR: #000066">Brukernavn:Dagro</SPAN><SPAN style="COLOR: #111111">****************</SPAN><SPAN style="COLOR: #000066">Brukernavn:DagroReturns</SPAN><BR><SPAN style="COLOR: #000066">Gjeng:NordicElite</SPAN><SPAN style="COLOR: #111111">*****************</SPAN><SPAN style="COLOR: #000066">Gjeng:Ingen</SPAN><BR><SPAN style="COLOR: #000066">Status:Død!</SPAN>(<SPAN style="COLOR: #006600">Pålogget!</SPAN>)<SPAN style="COLOR: #111111">************</SPAN><SPAN style="COLOR: #000066">Status:Levende</SPAN>(<SPAN style="COLOR: #ff0000">Avlogget!</SPAN>)<BR><SPAN style="COLOR: #000066">Rank:Hitman</SPAN><SPAN style="COLOR: #111111">********************</SPAN><SPAN style="COLOR: #000066">Rank:Sivilist</SPAN><BR><SPAN style="COLOR: #000066">Pengestatus:Nille-medarbeider</SPAN><SPAN style="COLOR: #111111">******</SPAN><SPAN style="COLOR: #000066">Pengestatus:Nille-medarbeider</SPAN><BR><SPAN style="COLOR: #000066">Antalldrap:0</SPAN><SPAN style="COLOR: #111111">*********************</SPAN><SPAN style="COLOR: #000066">Antalldrap:0</SPAN><BR><SPAN style="COLOR: #000066">Clubdegangster:Nei</SPAN><SPAN style="COLOR: #111111">***************</SPAN><SPAN style="COLOR: #000066">Clubdègangster:Nei</SPAN><BR><SPAN style="COLOR: #000066">Meld.sendt:433</SPAN><SPAN style="COLOR: #111111">******************</SPAN><SPAN style="COLOR: #000066">Meld.sendt:0</SPAN><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://i4.tinypic.com/16i5bax.jpg"><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://i12.tinypic.com/487oe11.jp"><BR><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://i18.tinypic.com/48h5qok.jpg"><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://i23.tinypic.com/2icn8.jpg"><BR>Brøt du meg ut av fensel? Værsegod!<BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://userbarmaker.com/temp_userbars_shack/151193568256.png"><BR><BR>Brøt jeg deg ut av fengsel? Værsegod!<BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://userbarmaker.com/temp_userbars_shack/581193568487.png"><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://pic.piczo.com/img/i71745813_97553_2.gif"><BR><SPAN style="COLOR: #111111">*********************</SPAN><SPAN style="COLOR: #000099">D</SPAN><SPAN style="COLOR: #333333">rapsteller:</SPAN><BR><BR><SPAN style="COLOR: #111111">**********</SPAN><SPAN style="COLOR: #000099">S</SPAN><SPAN style="COLOR: #333333">ivilist:0</SPAN><BR><SPAN style="COLOR: #111111">**********</SPAN><SPAN style="COLOR: #000099">W</SPAN><SPAN style="COLOR: #333333">annabe:0</SPAN><BR><SPAN style="COLOR: #111111">**********</SPAN><SPAN style="COLOR: #000099">B</SPAN><SPAN style="COLOR: #333333">råkmaker:0</SPAN><BR><SPAN style="COLOR: #111111">**********</SPAN><SPAN style="COLOR: #000099">G</SPAN><SPAN style="COLOR: #333333">angster:0</SPAN><BR><SPAN style="COLOR: #111111">**********</SPAN><SPAN style="COLOR: #000099">H</SPAN><SPAN style="COLOR: #333333">itman:0</SPAN><BR><SPAN style="COLOR: #111111">**********</SPAN><SPAN style="COLOR: #000099">A</SPAN><SPAN style="COLOR: #333333">ssassin:0</SPAN><BR><SPAN style="COLOR: #111111">**********</SPAN><SPAN style="COLOR: #000099">K</SPAN><SPAN style="COLOR: #333333">aptein:0</SPAN><BR><SPAN style="COLOR: #111111">**********</SPAN><SPAN style="COLOR: #000099">B</SPAN><SPAN style="COLOR: #333333">oss:0</SPAN><BR><SPAN style="COLOR: #111111">**********</SPAN><SPAN style="COLOR: #000099">G</SPAN><SPAN style="COLOR: #333333">udfar:0</SPAN><BR><SPAN style="COLOR: #111111">**********</SPAN><SPAN style="COLOR: #000099">L</SPAN><SPAN style="COLOR: #333333">egendarisk Gudfar:0</SPAN><BR><SPAN style="COLOR: #111111">**********</SPAN><SPAN style="COLOR: #000099">D</SPAN><SPAN style="COLOR: #333333">on:0</SPAN><BR><SPAN style="COLOR: #111111">**********</SPAN><SPAN style="COLOR: #000099">C</SPAN><SPAN style="COLOR: #333333">apo Don:0</SPAN><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://pic.piczo.com/img/i71745813_97553_2.gif"><BR><SPAN style="COLOR: #111111">***************************</SPAN><SPAN style="COLOR: #333333">.:Oppdrag:.</SPAN><BR><BR><BR><SPAN style="COLOR: #111111">************************</SPAN><SPAN style="COLOR: #333333">¤Ikea ¤[0/100] ¤</SPAN><BR><BR><SPAN style="COLOR: #111111">************************</SPAN><SPAN style="COLOR: #333333">¤From Russia with love¤[0/8] ¤</SPAN><BR><BR><SPAN style="COLOR: #111111">************************</SPAN><SPAN style="COLOR: #333333">¤Nokas¤[0/1] ¤</SPAN><BR><BR><SPAN style="COLOR: #111111">************************</SPAN><SPAN style="COLOR: #333333">¤Lefdal¤[0/40] ¤</SPAN><BR><BR><SPAN style="COLOR: #111111">************************</SPAN><SPAN style="COLOR: #333333">¤Dårlig planlagt ran¤[0/3] ¤</SPAN><BR><BR><SPAN style="COLOR: #111111">************************</SPAN><SPAN style="COLOR: #333333">¤Mordet på de 3 familiehodene¤[0/3]¤</SPAN><BR><BR><SPAN style="COLOR: #111111">************************</SPAN><SPAN style="COLOR: #333333">¤Tower cafè og Kebab house¤[0/283]¤</SPAN><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://pic.piczo.com/img/i71745813_97553_2.gif"><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://i13.tinypic.com/34pdi4i.png"><BR><IMG title="" style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; max-width: 470px" alt="" src="http://i157.photobucket.com/albums/t74/OwnedByArts/Kaffa-VelkommenTilbake.png"> </DIV></FONT></TD></TR></TBODY></TABLE><BR><BR><BR><BR><BR><BR></TD></TR>
+<TR>
+<TD width=450 colSpan=4>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width=71><IMG height=13 alt="" src="designbilder/bottom_left.gif" width=71 border=0></TD>
+<TD style="BACKGROUND-IMAGE: url(designbilder/bottom_bg.gif); BACKGROUND-REPEAT: repeat" width="100%"></TD>
+<TD width=235><IMG height=13 alt="" src="designbilder/bottom_right.gif" width=500 border=0></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD style="PADDING-TOP: 3px" width=450 colSpan=4></TD></TR></TBODY></TABLE></TD>
+<TD vAlign=top align=left width=145>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR style="BACKGROUND: url(designbilder/menybar.gif)" height=16 width="145">
+<TD align=middle><B>Din Info</B> </TD></TR>
+<TR>
+<TD class=menuborder style="PADDING-TOP: 4px">
+<TABLE class=crimsmenu id=table4 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="PADDING-BOTTOM: 5px; BORDER-BOTTOM: #6f6f6f 1px solid" colSpan=2>
+<TABLE id=table5 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=left width="100%">
+<DIV align=center><SPAN class=menuyellowtext><A href="index.php?side=bruker&amp;brukernavn=Diclonius">Diclonius</A></SPAN><BR><IMG src="designbilder/gang_icon.jpg"> <BR>Rank: <SPAN class=menuyellowtext>Kaptein</SPAN><BR><BR></DIV>Bosted: <SPAN class=menuyellowtext>London</SPAN><BR>Gjeng: <SPAN class=menuyellowtext>Ingen</SPAN><BR>Penger: <SPAN class=menuyellowtext>388,608 kr</SPAN><BR>Kuler: <SPAN class=menuyellowtext>0 stk</SPAN><BR></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD style="PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #6f6f6f 1px solid" vAlign=top align=middle width="50%">Våpen:<BR><SPAN class=menuyellowtext>Ingen</SPAN><BR><BR>Beskyttelse:<BR><SPAN class=menuyellowtext>Ingen</SPAN><BR></TD>
+<TR>
+<TD style="PADDING-BOTTOM: 5px; PADDING-TOP: 3px; BORDER-BOTTOM: #6f6f6f 1px solid" align=middle colSpan=2>Liv: 100%<BR>
+<TABLE style="BORDER-COLLAPSE: collapse" cellSpacing=0 cellPadding=0 width=130 border=0>
+<TBODY>
+<TR>
+<TD style="BORDER-RIGHT: #6f6f6f 1px solid; BORDER-TOP: #6f6f6f 1px solid; BORDER-LEFT: #6f6f6f 1px solid; BORDER-BOTTOM: #6f6f6f 1px solid">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="BACKGROUND-IMAGE: url(designbilder/bilde_liv.jpg); BACKGROUND-REPEAT: repeat; HEIGHT: 11px" width="100%"></TD>
+<TD width=0% bgColor=#111111></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD><IMG height=7 alt="" src="designbilder/right_bottom.gif" width=145 border=0><BR><BR></TD></TR>
+<TR style="BACKGROUND: url(designbilder/menybar.gif)" height=16 width="145">
+<TD align=middle><B>Kommunikasjon</B> </TD></TR>
+<TR>
+<TD class=menuborder style="PADDING-BOTTOM: 3px; PADDING-TOP: 4px">
+<TABLE class=menuarea id=table8 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=pm_inn"><B>Innboks</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=pm_ny"><B>Send Melding</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=pm_sendt"><B>Utboks/sendte meld.</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=kontakter"><B>Kontakter</B></A><BR></TD></TR>
+<TR>
+<TD><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=genforum"><B>Generelt forum</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=sokforum"><B>Salg/Søknad-forum</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=cdgforum"><B>CDG-forum</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=otforum"><B>Offtopic-forum</B></A><BR></TD></TR>
+<TR width="100%">
+<TD vAlign=top width="100%"><A href="index.php?side=gjengforum"><B>Gjengforum</B></A><BR></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD style="PADDING-BOTTOM: 10px"><IMG height=7 alt="" src="designbilder/right_bottom.gif" width=145 border=0></TD></TR>
+<TR>
+<TD><IMG height=15 alt="" src="designbilder/system.gif" width=145 border=0></TD></TR>
+<TR>
+<TD class=menuborder style="PADDING-BOTTOM: 3px; PADDING-TOP: 4px">
+<TABLE class=action cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD class=menupadding width="97%" colSpan=2>
+<TABLE class=menuarea cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD><SPAN class=link><A href="index.php?side=hoved">Nyheter</A><BR><A href="index.php?side=poeng"><B>Poenghandel</B></A><BR><A href="index.php?side=support"><B>In-game Support</B></A><BR><A href="index.php?side=finn">Finn Spiller</A><BR><A href="index.php?side=online">Spillere Pålogget</A><BR><A href="index.php?side=endre_bruker">Rediger profil</A><BR><A href="index.php?side=stats">Statistikk</A><BR><A href="index.php?side=dagensmord">Dagens mord</A><BR><A href="index.php?side=faq">FAQ</A><BR><A href="index.php?side=kontaktinfo">Kontaktinformasjon</A><BR><BR>
+<FORM action=index.php?side=loggut method=post>
+<DIV align=center><INPUT type=submit value="Logg ut!" name=subloggut> <INPUT type=hidden name=luz></DIV></FORM></SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD><IMG height=7 src="designbilder/right_bottom.gif" width="100%" border=0></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></BODY>

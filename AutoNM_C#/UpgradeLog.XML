@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AutoNM">
+</Property><Property Name="Solution File" Value="D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\AutoNM.sln">
+</Property><Property Name="User Options File" Value="D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\AutoNM.suo">
+</Property><Property Name="Date" Value="10. november 2012">
+</Property><Property Name="Time" Value="23:42">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="AutoNM.sln" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM.sln">
+</Event><Event ErrorLevel="0" Project="" Source="AutoNM.suo" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM.suo">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\AutoNM.csproj" Description="Project file successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\AutoNM.csproj">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\AutoNM.csproj.user" Description="Project user file successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\AutoNM.csproj.user">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\FastBitmap.cs" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\FastBitmap.cs">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\frmConfig.cs" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\frmConfig.cs">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\frmConfig.Designer.cs" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\frmConfig.Designer.cs">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\frmMain.cs" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\frmMain.cs">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\frmMain.Designer.cs" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\frmMain.Designer.cs">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\InputBox.cs" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\InputBox.cs">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\MP3.cs" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\MP3.cs">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\Program.cs" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\Program.cs">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\Properties\Resources.Designer.cs" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\Properties\Settings.Designer.cs" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\Properties\Settings.settings" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\AnmCs.gif" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\AnmCs.gif">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\PT_Lite.ico" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\PT_Lite.ico">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\frmConfig.resx" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\frmConfig.resx">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\frmMain.resx" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\frmMain.resx">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\Properties\Resources.resx" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\Cars.txt" Description="File successfully backed up as D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\Backup\AutoNM\Cars.txt">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\AutoNM.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AutoNM" Source="AutoNM\AutoNM.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="AutoNM.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="AutoNM.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AutoNM" Source="AutoNM\AutoNM.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

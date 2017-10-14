@@ -1,0 +1,8 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>/user Partyvan /pass 1qaz2wsx /krim 1 /press 1 /gta 1 /fc 1 /jail 0 /bryt 0</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <StartArguments>/user Partyvan /pass 1qaz2wsx /krim 1 /press 1 /gta 1 /fc 1 /jail 0 /bryt 0</StartArguments>
+  </PropertyGroup>
+</Project>

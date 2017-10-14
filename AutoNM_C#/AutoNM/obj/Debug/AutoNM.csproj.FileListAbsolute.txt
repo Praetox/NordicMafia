@@ -1,0 +1,10 @@
+D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\AutoNM\bin\Debug\AutoNM.exe
+D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\AutoNM\bin\Debug\AutoNM.pdb
+D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\AutoNM\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\AutoNM\obj\Debug\AutoNM.frmConfig.resources
+D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\AutoNM\obj\Debug\AutoNM.frmMain.resources
+D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\AutoNM\obj\Debug\AutoNM.Properties.Resources.resources
+D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\AutoNM\obj\Debug\GenerateResource.read.1.tlog
+D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\AutoNM\obj\Debug\GenerateResource.write.1.tlog
+D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\AutoNM\obj\Debug\AutoNM.exe
+D:\Visual Basic\SAUCE\PTSOURCE\NM\AutoNM_C#\AutoNM\obj\Debug\AutoNM.pdb
